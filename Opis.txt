@@ -1,0 +1,35 @@
+Projekt przedstawia aplikacjê na smartfony do zakupu biletów na dowolny œrodek transportu 
+wymagaj¹ca rejestracji i logowania w systemie.
+U¿ytkownik musi za³o¿yæ konto, nastêpnie siê na nie zalogowaæ i od tej pory mo¿e:
+- przegl¹daæ dostêpne po³¹czenia ró¿nymi œrodkami transportu
+- wyszukiwaæ po³¹czenia
+- zakupiæ bilet na wybrane po³¹czenie
+- odwo³aæ rezerwacjê i uzyskaæ zwrot pieniêdzy za bilet
+
+1. Diagram przypadków u¿ycia reprezentuje interakcje u¿ytkowników(administratorów) 
+i podstawowe operacje, które mog¹ oni wykonywaæ.
+
+2.Diagram czynnoœci przedstawia przeszukiwanie po³¹czeñ oraz zakup biletu przez u¿ytkownika
+a tak¿e mo¿liwoœæ modyfikacji po³¹czeñ poprzez administratorów(jedni i drudzy musz¹ siê wczeœniej zalogowaæ).
+
+3.Diagram klas przedstawia klasy zawarte w projekcie, gdzie:
+- "Katalog po³¹czeñ" to kontener przechowuj¹cy klasy typu "Po³¹czenie",
+- "Administrator" to klasa dziedzicz¹ca po "U¿ytkowniku" zawieraj¹ca pole na dodatkowe uprawnienia,
+- "System" to zestaw metod klas dziêki którym zapewnione jest poprawne dzia³anie aplikacji.
+
+4.Diagram obiektów ilustruje przyk³adowe instancje klas wraz z przyk³adowymi danymi.
+
+5.Pierwszy diagram przebiegu przedstawia proces wyszukiwania po³¹czenia przez u¿ytkownika w systemie.
+Drugi diagram przebiegu ilustruje natomiast zakup konkretnego biletu przez u¿ytkownika.
+
+6.Diagramy przedstawiaj¹ dwa wy¿ej wymienione procesy wraz z komunikacj¹ miêdzy obiektami oraz 
+odpowiedni¹ kolejnoœci¹ wykonywania poszczególnych metod.
+
+7.Pierwszy diagram ilustruje stany i zdarzenia podczas pracy administratora natomiast drugi diagram stanu
+ilustruje stany i przejœcia miêdzy nimi(zdarzenia), które odbywaj¹ siê podczas pracy u¿ytkownika z aplikacj¹.
+
+8.Diagram komponentów przedstawia organizacjê i zale¿noœci pomiêdzy poszczególnymi komponentami a
+poszczególnymi jednostkami(u¿ytkownik, administrator, obs³uga).
+
+9. Diagram wdro¿enia ilustruje fizyczn¹ strukturê systemu, gdzie u¿ytkownik za pomoc¹ smartfona
+loguje siê do aplikacji.
